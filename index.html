@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+       
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <nav>
+            <span class="logo">
+                <img src="logo.svg">
+            </span>
+            <span class="hr">
+            <hr>
+            <ul>
+                <li><a href="https://shreyashpatel5506.github.io/spacetourism/">00 HOME</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/destination/">01 DESTINATION</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/crew/">02 CREW</a></li>
+                <li><a class="active" href="https://shreyashpatel5506.github.io/technology/">03 TECHNOLOGY</a></li>
+            </ul>
+            </span>
+            <span>
+                <img src="icon-hamburger.svg" id="imgmenu" class="hamburger" onclick="menuh()">
+            </span>
+        </nav>
+        <div class="mobilemenu" id="ham">
+            <ul style="list-style-type: none;">
+                <li><a href="https://shreyashpatel5506.github.io/spacetourism/">00 HOME</a></li>
+                <li><a  href="https://shreyashpatel5506.github.io/destination/">01 DESTINATION</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/crew/">02 CREW</a></li>
+                <li><a href="https://shreyashpatel5506.github.io/technology/">03 TECHNOLOGY</a></li>
+            </ul>
+        </div>
+        
+            <div class="choice"><p style="color:rgb(130, 130, 130)">03</p> SPACE LAUNCH 101</div>
+        <div class="main">
+            <div class="sub">
+            <div class="dots">
+                <span class="dot" onclick="currentSlide(1)">1</span>
+                <span class="dot" onclick="currentSlide(2)">2</span>
+                <span class="dot" onclick="currentSlide(3)">3</span>
+            </div>
+            
+
+            <div class="textpart">
+                 <div class="text">
+                <span class="terminology">The terminology... </span>
+                <span class="type"> LAUNCH VEHICLE</span>
+                <span class="description">A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!</span>
+                </div>
+                <div class="text">
+                <span class="terminology">The terminology...</span>
+                <span class="type">SPACEPORT</span>
+                <span class="description">A spaceport or cosmodrome is a site for launching (or receiving) spacecraft, by analogy to the seaport for ships or airport for aircraft. Based in the famous Cape Canaveral, our spaceport is ideally situated to take advantage of the Earth’s rotation for launch.</span>
+                </div>
+                 <div class="text">
+                <span class="terminology">The terminology...</span>
+                <span class="type">SPACE CAPSULE</span>
+                <span class="description">Space capsule A space capsule is an often-crewed spacecraft that uses a blunt-body reentry capsule to reenter the Earth's atmosphere without wings. Our capsule is where you'll spend your time during the flight. It includes a space gym, cinema, and plenty of other activities to keep you entertained.</span>
+                 </div>
+            </div>
+            </div>
+               <div class="images">
+                <img src="image-launch-vehicle-portrait.jpg" alt="launch vehicle" class="image">
+                <img src="image-spaceport-portrait.jpg" alt="space port" class="image">
+                <img src="image-space-capsule-portrait.jpg" alt="capsule" class="image">
+             </div>
+             
+        </div>
+        
+        <script src="index.js" async defer>
+        </script>
+</body>
+</html>
